@@ -1,0 +1,88 @@
+body {
+  background: $main-background-color;
+}
+
+nav {
+  min-height: 10vh;
+  max-width: 90%;
+  margin: auto;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+ul {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  li {
+    list-style: none;
+    padding: 0 2rem;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: $buttons-font;
+    color: #636877;
+  }
+}
+
+article {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-text {
+  flex: 3 1 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: $main-color;
+
+  h1 {
+    font-size: $big-header-font;
+  }
+
+  h2 {
+    font-size: $big-text-font;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: $buttons-font;
+  }
+
+  div {
+    margin-top: 6rem;
+  }
+
+  .buttons {
+    padding: 1rem 2.6rem;
+    margin-right: 5rem;
+  }
+
+  .shop-btn {
+    background-color: $main-color;
+    color: #fff;
+    border: 0.3rem solid $main-color;
+  }
+
+  .learn-btn {
+    border: 0.3rem solid #636877;
+    color: #636877;
+  }
+}
+
+.main-image {
+  flex: 1 1 40rem;
+  display: flex;
+  justify-content: center;
+}
