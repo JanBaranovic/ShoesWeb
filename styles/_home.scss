@@ -1,5 +1,6 @@
 body {
   background: $main-background-color;
+  font-family: $primary-font;
 }
 
 nav {
@@ -11,6 +12,7 @@ nav {
   align-items: center;
   justify-content: flex-end;
   flex-wrap: wrap;
+  font-family: $secondary-font;
 }
 
 ul {

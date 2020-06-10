@@ -11,6 +11,7 @@ html {
 
 body {
   background: #d9d9d9;
+  font-family: "Russo One", sans-serif;
 }
 
 nav {
@@ -29,6 +30,7 @@ nav {
           justify-content: flex-end;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  font-family: "Roboto", sans-serif;
 }
 
 ul {
