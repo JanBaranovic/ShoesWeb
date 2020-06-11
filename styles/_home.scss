@@ -5,25 +5,25 @@ body {
 
 nav {
   min-height: 10vh;
-  max-width: 90%;
+  width: 90%;
   margin: auto;
   padding: 2rem;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  flex-wrap: wrap;
   font-family: $secondary-font;
 }
 
 ul {
-  height: 10vh;
+  width: 40%;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 
   li {
     list-style: none;
-    padding: 0 2rem;
+    padding: 0 1rem;
   }
 
   a {
@@ -37,12 +37,13 @@ article {
   width: 90%;
   margin: auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
 .main-text {
-  flex: 3 1 40rem;
+  flex: 3 1 50rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
